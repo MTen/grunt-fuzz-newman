@@ -1,0 +1,44 @@
+{
+  "name": "grunt-fuzz-newman",
+  "description": "Grunt pluggin to use the beta version of newman",
+  "version": "0.1.0",
+  "homepage": "https://github.com/mtener/grunt-fuzz-newman",
+  "author": {
+    "name": "Mike Tener",
+    "email": "michaeltener@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mtener/grunt-fuzz-newman.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mtener/grunt-fuzz-newman/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/mtener/grunt-fuzz-newman/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 4.0.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt": "~0.4.5"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "dependencies": {
+    "json5": "^0.4.0",
+    "newman": "^2.0.0-beta.6",
+    "unirest": "^0.4.2"
+  }
+}
